@@ -136,6 +136,14 @@ blockquote {
   background-color: #f3f3f3;
   margin-bottom: 30px;
 }
+.main__wrapper-box_pink {
+  width: 90%;
+  border: 1px solid grey;
+  border-radius: 8px;
+  background-color: #9d0054;
+  margin-bottom: 30px;
+  color: #fff;
+}
 .main__wrapper-border_box {
   width: 90%;
   border: 2px solid green;

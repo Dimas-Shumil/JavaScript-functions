@@ -93,6 +93,14 @@ blockquote {
             background-color: $light;
             margin-bottom: 30px;
         }
+        &-box_pink {
+            width: 90%;
+            border: 1px solid grey;
+            border-radius: 8px;
+            background-color: $brand;
+            margin-bottom: 30px;
+            color: $white;
+        }
         &-border_box {
             width: 90%;
             border: 2px solid green;
