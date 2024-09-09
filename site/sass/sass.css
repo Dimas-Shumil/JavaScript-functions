@@ -130,13 +130,22 @@ blockquote {
 .main__wrapper-box_grey {
   width: 90%;
   border: 1px solid grey;
-  border-radius: 4px;
+  border-radius: 8px;
   background-color: #f3f3f3;
+  margin-bottom: 30px;
+}
+.main__wrapper-border_box {
+  width: 90%;
+  border: 2px solid green;
+  border-radius: 8px;
   margin-bottom: 30px;
 }
 .main__wrapper-conteiner {
   width: 80%;
   padding-bottom: 30px;
+}
+.main__wrapper-green {
+  color: #178253;
 }
 
 table {

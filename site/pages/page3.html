@@ -41,6 +41,72 @@
                     <img src="../images/m11_cover_FE_and_FD.svg" width="50%" alt="">
                 </figure>
 
+                <h2>Два способа объявления функции</h2>
+                <hr class="hr">
+                <h3>Классическое объявление функции называется <span class="main__wrapper-green">Function Declaration
+                        (FD)</span>.</h3>
+                <p>Пример:</p>
+                <div class="main__wrapper-box_grey">
+                    <p>function sum() {</p>
+                    <blockquote>const result = 1+2;</blockquote>
+                    <blockquote>console.log(result);</blockquote>
+                    <p>}</p>
+                </div>
+
+                <h3>Другой подход к объявлению функций — <span class="main__wrapper-green">Function Expression
+                        (FE)</span>.</h3>
+
+                <p>Пример:</p>
+                <div class="main__wrapper-box_grey">
+                    <p>const sum = function() {</p>
+                    <blockquote>const result = 1 + 2;</blockquote>
+                    <blockquote>console.log(result);</blockquote>
+                    <p>}</p>
+                </div>
+
+                <h2>Отличия:</h2>
+                <blockquote>&middot; Функции, объявленные как Function Declaration, создаются интерпретатором до
+                    выполнения кода, поэтому их можно вызвать до объявления.</blockquote>
+                <blockquote>&middot; Функции, объявленные как FE, ведут себя по-разному в зависимости от того, какой
+                    оператор был использован. Функции, объявленные как FD, всегда ведут себя одинаково.</blockquote>
+                <div class="main__wrapper-box_grey">
+                    <p>func1(); // ошибки нет</p>
+                    <p>func2(); // ошибка</p>
+                    <p>function func1(a, b) {</p>
+                    <blockquote>console.log('function 1 - FD');</blockquote>
+                    <p>}</p>
+                    <p>const func2 = function() {</p>
+                    <blockquote>console.log('function 2 - FE');</blockquote>
+                    <p>};</p>
+                    <p>func1(); // ошибки нет</p>
+                    <p>func2(); // ошибки нет</p>
+                </div>
+
+                <h2>Объявление через var, let и const</h2>
+                <hr class="hr">
+                <hr>
+                <p>Задание 6.3.1</p>
+                <p>Что такое функция?</p>
+                <blockquote>Блок программного кода, который определяется один раз и может выполняться (вызываться) многократно.</blockquote>
+                <hr>
+
+                <p>Задание 6.3.2</p>
+
+                <p>Существует несколько способов задать функцию:</p>
+                <blockquote>Function Expression</blockquote>
+                <blockquote>Function Declaration</blockquote>
+                <hr>
+
+                <p>Задание 6.3.3</p>
+
+                <p>Основное отличие FE и FD в том, что...</p>
+                <blockquote>Функции, объявленные через FD, можно вызывать до и после их объявления.</blockquote>
+
+
+
+
+
+
             </div>
             <!-- кнопки -->
             <div class="main__btn-box">

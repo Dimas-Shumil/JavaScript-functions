@@ -87,14 +87,24 @@ blockquote {
         &-box_grey {
             width: 90%;
             border: 1px solid grey;
-            border-radius: 4px;
+            border-radius: 8px;
             background-color: $light;
+            margin-bottom: 30px;
+        }
+        &-border_box {
+            width: 90%;
+            border: 2px solid green;
+            border-radius: 8px;
             margin-bottom: 30px;
         }
 
         &-conteiner {
             width: 80%;
             padding-bottom: 30px;
+        }
+
+        &-green {
+            color:$green ;
         }
 
         
